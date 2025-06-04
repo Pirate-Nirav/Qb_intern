@@ -28,7 +28,7 @@ class IRCTC:
         data = data.json()
 
         for i in data['Route']:
-            print(i['StationName'],"|", i['ArrivalTime'],"|",i['DepartureTime'],"|",i['Distance'],"km")
+            print(i['StationName'],"|", i['ArrivalTime'],"|",i['DepartureTime'],"|",i['Distance']+"km")
 
 
 obj = IRCTC()
