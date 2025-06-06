@@ -40,4 +40,4 @@ def decrypy (morse_message):
             citext += letter 
         else:
             i += 1
-            if i ==2 :
+            if i ==2
