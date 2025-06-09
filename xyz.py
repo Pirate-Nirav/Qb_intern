@@ -3,7 +3,7 @@ class ATM:
     counter = 1 
     
     def __init__(self):
-        self.__balance = 0  # integer 
+        self.__balance = 0  # integer (This is private variable)
         self.__pin = ""  # String for pin
         self.sno = ATM.counter
         ATM.counter = ATM.counter+1

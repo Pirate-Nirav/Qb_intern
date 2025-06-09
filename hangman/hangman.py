@@ -5,7 +5,7 @@ word_list = ["python", "banana", "jazz", "keyboard", "oxygen", "wizard", "galaxy
     "volcano", "pirate", "ninja", "castle", "dragon", "jungle", "cookie",
     "storm", "shadow", "tornado", "lizard"]
 chosen_word = random.choice(word_list)
-print(chosen_word)
+# print(chosen_word)
 display = []
 for letter in chosen_word:
     display += "_"

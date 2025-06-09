@@ -17,7 +17,7 @@ class QuizLogic:
     def check_answer(self, user_input, answer):
         if user_input.lower() == answer.lower():
             print("You are correct!")
-            self.score =+1
+            self.score += 1
             print("\n")
         else:
             print("That's incorrect!")
