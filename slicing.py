@@ -16,7 +16,7 @@ print(s[0:len(s):5])#af
 
 print(s[0:len(s) -1:1])#abcdefghi
 
-print(s[0:6:2])#ace
+print(s[0:6:2])#ac
 
 print(s[-7:-4:])
 
